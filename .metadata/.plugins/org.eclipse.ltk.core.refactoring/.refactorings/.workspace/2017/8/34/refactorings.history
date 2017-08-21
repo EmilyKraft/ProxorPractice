@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 10 resources" deleteContents="false" description="Delete 10 resources" element1="/average-ss" element10="/write-html-csv" element2="/exps-have-numbers-ss" element3="/flexible-read-display-csv" element4="/numbers-as-expressions-ss" element5="/open-save-ss" element6="/parentheses-ss" element7="/stat-greatest-val-csv" element8="/stat-median-csv" element9="/white-space-ss" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="10" stamp="1503352969925"/>
+</session>

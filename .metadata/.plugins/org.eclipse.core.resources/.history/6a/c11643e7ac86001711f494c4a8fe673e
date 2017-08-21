@@ -1,0 +1,23 @@
+
+public abstract class Card {
+	
+	protected double interest;
+	protected double balance = 100;
+	
+	public Card(){}
+	
+	public double getInterest() {
+		return interest;
+	}
+//	public void setInterest(double interest) {
+//		this.interest = interest;
+//	}
+	public double getBalance() {
+		return balance;
+	}
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+		
+	public abstract double getTotal();
+}

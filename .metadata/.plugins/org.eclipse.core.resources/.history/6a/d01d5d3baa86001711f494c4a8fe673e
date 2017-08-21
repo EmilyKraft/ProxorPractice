@@ -1,0 +1,25 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Card card1 = new Visa();
+		card1.setBalance(100);
+		Card card2 = new MasterCard();
+		card2.setBalance(100);
+		Card card3 = new Discover();
+		card3.setBalance(100);
+		Wallet w1 = new Wallet();
+		Person p1 = new Person();
+		w1.getCards().add(card1);
+		w1.getCards().add(card2);
+		w1.getCards().add(card3);
+		p1.getWallets().add(w1);
+		
+		System.out.println(p1.getTotal());
+
+
+	}
+
+}

@@ -1,0 +1,46 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Test Scenario 1
+		Card card1 = new Visa();
+		System.out.println(card1.getTotalInterest());
+		Card card2 = new MasterCard();
+		System.out.println(card2.getTotalInterest());
+		Card card3 = new Discover();
+		System.out.println(card3.getTotalInterest());
+		Wallet w1 = new Wallet();
+		Person p1 = new Person();
+		w1.getCards().add(card1);
+		w1.getCards().add(card2);
+		w1.getCards().add(card3);
+		p1.getWallets().add(w1);
+		
+		System.out.println(p1.getTotal());
+		System.out.println(p1.getTotalInterest());
+
+
+		//Test Scenario 2
+		Card card11 = new Visa();
+		Card card12 = new Discover();
+		Wallet w11 = new Wallet();
+		w11.getCards().add(card11);
+		w11.getCards().add(card12);
+		
+		
+		Card card13 = new MasterCard();
+		Wallet w12 = new Wallet();
+		w12.getCards().add(card13);
+		
+		Person p11 = new Person();
+		
+		p11.getWallets().add(w11);
+		p11.getWallets().add(w12);
+		
+		System.out.println(p11.getTotal());
+		System.out.println(p11.getTotalInterest());
+	}
+
+}

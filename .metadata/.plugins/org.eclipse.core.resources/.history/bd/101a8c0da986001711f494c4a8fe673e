@@ -1,0 +1,9 @@
+
+public class MasterCard extends Card{
+	
+	final double interest  = 0.05;
+	private double balance = 0;
+	
+	public MasterCard(){}
+
+}

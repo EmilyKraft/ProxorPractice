@@ -1,0 +1,10 @@
+INDEX VERSION 1.130+C:\Users\kraft\Downloads\Proxor\Proxor\.metadata\.plugins\org.eclipse.jdt.core
+3736101527.index
+3763607462.index
+1791576550.index
+2301163768.index
+3954698066.index
+1796600439.index
+4049255603.index
+2373573834.index
+4150883187.index
